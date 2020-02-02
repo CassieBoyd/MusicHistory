@@ -124,3 +124,9 @@ SELECT MAX(song.SongLength) as MaxSongLength, song.title
 FROM Song;
 
 --Modify the previous query to also display the title of the album.
+
+--Fixing typo
+
+UPDATE Album 
+SET Title = "Elvis' Golden Records"
+WHERE AlbumId = 23;
